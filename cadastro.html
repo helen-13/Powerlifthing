@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="squat.jpg" class="imagem-cadastro" alt="homem realizando agachamento">
+            <h1 class="titulo-principal"> Cadastro do Atleta</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cadastro.html">Cadastro do Atleta</a></li>
+                    <li><a href="contato.html"> Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+    <main>
+        <form>
+            <section class="nome-equipe">
+                <label for="nome-equipe"> Nome </label>
+                <input type="text" required autocomplete="additional-name">
+                <label> Equipe </label>
+                <input type="text" required>
+            </section>
+
+            <legend> Peso </legend>
+            <select>
+                <option>-47kg</option>
+                <option>48kg a 67kg</option>
+                <option>68kg a 77kg</option>
+                <option>78kg a 87kg</option>
+                <option>88kg a 97kg</option>
+                <option>98kg a 107kg</option>
+                <option>108kg a 117kg</option>
+                <option>+118kg</option>
+            </select>
+            <input type="submit" value="Enviar inscrição" class="enviar">
+        </form>
+    </main>
+</body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stlylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form> 
+            <label>Nome</label>
+            <input type="text" id="Nome e sobrenome" class="input-padrao" required>
+
+            <label for="email" > E-mail</label>
+            <input type="email" id="E-mail" class="input-padrao" required placeholder="seuemail@seuemail.com">
+
+            <label for="telefone" > Telefone</label>
+            <input type="tel" id="Telefone" class="input-padrao" required placeholder="(00)00000-0000">
+
+            <label>Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <div class="contato-filtro">
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email">E-mail</label>
+                    <input type="radio" name= "contato" values="email" id="radio-email">
+
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name= "contato" values="telefone" id="radio-telefoe">
+
+                    <label for="radio-whatsapp">whatsapp</label>
+                    <input type="radio" name= "contato" values="whatsapp" id="radio-whatsapp" checked>
+                </fieldset>
+            </div>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+        <label><input type="checkbox" class="checkbox" checked> Receber novidades do claendário e outros eventos de Powerlifting</label>
+        <button type="button" class="enviar"> Enviar</button>
+        </form>
+    </main>  
+   
